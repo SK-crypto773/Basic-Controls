@@ -39,6 +39,7 @@ def Main():
 
     # draws the GoPiGo3 logo
     gopigo3.drawLogo()
+    servo(120)
     # writes some description on the GoPiGo3
     gopigo3.drawDescription()
     # writes the menu for controlling the GoPiGo3 robot
@@ -93,5 +94,6 @@ if __name__ == "__main__":
         # then print the error and exit
         print(str(error))
         exit(1)
-
+    
     exit(0)
+ 
